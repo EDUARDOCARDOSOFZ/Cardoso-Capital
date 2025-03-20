@@ -1,13 +1,13 @@
 
-import { Instagram, Apple as WhatsApp } from 'lucide-react';
-
+import { Instagram } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 function Results() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
           <img 
-            src="https://i.ibb.co/M6qBPXB/logo.png" 
+            src="https://www.canva.com/design/DAGVnT2nFT0/kE2N4QRAkL6zWRU2xsXpqA/edit?utm_content=DAGVnT2nFT0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
             alt="Cardoso Capital"
             className="h-16"
           />
@@ -70,7 +70,7 @@ function Results() {
               rel="noopener noreferrer"
               className="p-3 bg-green-500 text-white rounded-full hover:bg-green-600 transition-colors"
             >
-              <WhatsApp size={24} />
+              <FaWhatsapp size={24} />
             </a>
             
             <a
