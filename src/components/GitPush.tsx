@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
-
 interface InitialFormProps {
   onSubmit: (name: string, email: string) => void;
 }

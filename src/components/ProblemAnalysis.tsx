@@ -18,7 +18,7 @@ function ProblemAnalysis({ category, onNext }: ProblemAnalysisProps) {
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
           <img 
-            src="https://i.ibb.co/M6qBPXB/logo.png" 
+            src="https://tinyurl.com/4sjsdbj8" 
             alt="Cardoso Capital"
             className="h-16"
           />

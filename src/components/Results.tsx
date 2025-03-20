@@ -7,7 +7,7 @@ function Results() {
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
           <img 
-            src="https://www.canva.com/design/DAGVnT2nFT0/kE2N4QRAkL6zWRU2xsXpqA/edit?utm_content=DAGVnT2nFT0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
+            src="https://tinyurl.com/4sjsdbj8" 
             alt="Cardoso Capital"
             className="h-16"
           />
