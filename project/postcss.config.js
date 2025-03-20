@@ -1,9 +1,9 @@
+import tailwindcss from "tailwindcss";
+import autoprefixer from "autoprefixer";
+import postcssPresetEnv from "postcss-preset-env";
+
 export default {
-  plugins: [
-    require("tailwindcss"),
-    require("autoprefixer"),
-    require("postcss-preset-env"),
-  ],
+  plugins: [tailwindcss, autoprefixer, postcssPresetEnv],
 };
 
 
