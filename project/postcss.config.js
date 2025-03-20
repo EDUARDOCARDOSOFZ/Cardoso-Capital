@@ -1,8 +1,9 @@
 export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    postcssPresetEnv: {}, // Se realmente precisar, senão pode remover.
-  },
+  plugins: [
+    require("tailwindcss"),
+    require("autoprefixer"),
+    require("postcss-preset-env"),
+  ],
 };
+
 
