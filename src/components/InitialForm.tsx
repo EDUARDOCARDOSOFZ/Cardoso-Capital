@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FaWhatsapp } from 'react-icons/fa';
-
 
 interface InitialFormProps {
   onSubmit: (name: string, email: string) => void;
@@ -31,10 +29,10 @@ function InitialForm({ onSubmit }: InitialFormProps) {
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
-          <FaWhatsapp className="h-16 w-16 text-green-500" />
+          <img src="https://tinyurl.com/4sjsdbj8" alt="Cardoso Capital" className="h-16 w-16" />
         </div>
         
-        <h1 className="text-2xl font-bold text-center mb-6 text-green-700">
+        <h1 className="text-2xl font-libre text-center mb-6 text-customBlue font-libre">
           O Que Travou Suas Finanças?
         </h1>
 
@@ -65,7 +63,7 @@ function InitialForm({ onSubmit }: InitialFormProps) {
 
           <button
             type="submit"
-            className="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition-colors"
+            className="w-full bg-blue-900 text-white py-3 rounded-lg hover:bg-green-700 transition-colors"
           >
             Começar Quiz
           </button>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaWhatsapp } from 'react-icons/fa';
 
 interface InitialFormProps {
   onSubmit: (name: string, email: string) => void;
@@ -30,7 +29,7 @@ function InitialForm({ onSubmit }: InitialFormProps) {
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
-          <FaWhatsapp className="h-16 w-16 text-green-500" />
+          <img src="https://imgur.com/a/w29x8sC" alt="Logo" className="h-16 w-16" />
         </div>
         
         <h1 className="text-2xl font-bold text-center mb-6 text-green-700">
