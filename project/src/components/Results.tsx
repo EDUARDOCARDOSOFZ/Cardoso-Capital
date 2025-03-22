@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 function Results() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+      <div className="w-full max-w-md fundo-gradient rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
           <img 
             src="https://tinyurl.com/4sjsdbj8" 
@@ -59,7 +59,7 @@ function Results() {
         </div>
 
         <div className="mt-8">
-          <p className="text-center mb-4">
+          <p className="font-libre mb-4">
             Fale diretamente com nossa equipe se tiver dúvidas ou precisar de orientação personalizada:
           </p>
           
@@ -84,7 +84,7 @@ function Results() {
           </div>
         </div>
 
-        <p className="text-xs text-center mt-8 text-gray-500">
+        <p className="text-xs font-libre mt-8 text-gray-500">
           © 2025 Cardoso Capital. Todos os direitos reservados.
         </p>
       </div>

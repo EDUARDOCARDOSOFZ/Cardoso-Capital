@@ -24,7 +24,7 @@ function ProblemAnalysis({ category, onNext }: ProblemAnalysisProps) {
           />
         </div>
 
-        <h2 className="text-2xl font-bold text-center mb-6">
+        <h2 className="text-2xl font-libre text-center mb-6">
           Com Base Em Suas Respostas
         </h2>
 
@@ -34,12 +34,12 @@ function ProblemAnalysis({ category, onNext }: ProblemAnalysisProps) {
           </div>
 
           <div className="bg-red-100 p-4 rounded-lg">
-            <h3 className="font-bold text-red-800 mb-2">PROBLEMA:</h3>
+            <h3 className="font-libre text-red-800 mb-2">PROBLEMA:</h3>
             <p className="text-red-700">{scenario?.problem}</p>
           </div>
 
           <div className="bg-blue-100 p-4 rounded-lg">
-            <h3 className="font-bold text-blue-800 mb-2">POSSÍVEIS CONSEQUÊNCIAS:</h3>
+            <h3 className="font-libre text-blue-800 mb-2">POSSÍVEIS CONSEQUÊNCIAS:</h3>
             <p className="text-blue-700">{scenario?.consequence}</p>
           </div>
 
