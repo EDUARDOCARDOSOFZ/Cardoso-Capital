@@ -27,9 +27,9 @@ function InitialForm({ onSubmit }: InitialFormProps) {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+      <div className="w-full max-w-md fundo-gradient rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
-          <img src="https://tinyurl.com/4sjsdbj8" alt="Cardoso Capital" className="h-16 w-16" />
+          <img src="https://tinyurl.com/4sjsdbj8" alt="Cardoso Capital" className="h-60 w-60" />
         </div>
         
         <h1 className="text-2xl font-libre text-center mb-6 text-customBlue font-libre">

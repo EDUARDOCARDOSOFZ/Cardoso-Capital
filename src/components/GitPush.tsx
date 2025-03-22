@@ -27,7 +27,7 @@ function InitialForm({ onSubmit }: InitialFormProps) {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+      <div className="w-full max-w-md fundo-gradient rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
           <img src="https://imgur.com/a/w29x8sC" alt="Logo" className="h-16 w-16" />
         </div>

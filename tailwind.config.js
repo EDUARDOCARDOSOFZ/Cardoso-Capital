@@ -13,7 +13,7 @@ export default {
         libre: ['"Libre Baskerville"', 'serif'], // Fonte Libre Baskerville adicionada
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(to right,rgba(165, 165, 165, 0.77),rgb(54, 54, 54))',
+        'fundo-gradient': 'linear-gradient-de-90º(to right,rgba(165, 165, 165, 0.19),rgb(155, 155, 155))',
       },
     },
   },

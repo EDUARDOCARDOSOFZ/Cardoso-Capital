@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 export const Card: FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
-  <div className="bg-custom-gradient rounded-2xl shadow-md p-4 my-4 text-center">
+  <div className="fundo-gradient rounded-2xl shadow-md p-4 my-4 text-center">
     <h2 className="font-bold text-lg mb-4">{title}</h2>
     {children}
   </div>
