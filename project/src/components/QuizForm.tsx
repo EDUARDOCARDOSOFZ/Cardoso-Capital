@@ -53,7 +53,7 @@ function QuizForm({ onComplete }: QuizFormProps) {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+      <div className="w-full max-w-md fundo-gradient rounded-lg shadow-md p-6">
         <div className="flex justify-center mb-6">
           <img
             src="https://tinyurl.com/4sjsdbj8"
@@ -76,7 +76,7 @@ function QuizForm({ onComplete }: QuizFormProps) {
 
         {currentQuestionData && (
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold text-center mb-6">
+            <h2 className="text-xl font-semibold text-center mb-6 text-customblue font-libre">
               {currentQuestionData.question}
             </h2>
 
