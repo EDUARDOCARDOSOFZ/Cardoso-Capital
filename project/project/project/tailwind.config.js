@@ -6,14 +6,9 @@ export default {
       colors: {
         primary: '#3498db',
         secondary: '#f1c40f',
-        customBlue: '#090b33', // Nova cor adicionada
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
-        libre: ['"Libre Baskerville"', 'serif'], // Fonte Libre Baskerville adicionada
-      },
-      backgroundImage: {
-        'fundo-gradient': 'linear-gradient-de-90º(to right,rgba(165, 165, 165, 0.19),rgb(155, 155, 155))',
       },
     },
   },
@@ -22,4 +17,3 @@ export default {
     require('@tailwindcss/typography'),
   ],
 };
-
